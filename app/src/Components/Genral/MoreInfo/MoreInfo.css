@@ -1,0 +1,39 @@
+
+
+
+.mt-5{
+    background-color: #fbf9f5;
+}
+
+.text-centermy-5{
+    margin-top: 20px;
+    margin-left: 40%;
+    
+}
+.fs-3fw-normal{
+    color: #c29958;
+
+}
+.fw-boldfs-1text-muted{
+    letter-spacing: 5px;
+}
+.gy-5d-flexalign-items-centerjustify-content-center{
+    display: flex;
+    justify-content: space-between;
+}
+.text-center{
+    margin-top: 350px;
+    margin-left: 200px;
+}
+.image1{
+    margin-top: 90px;
+}
+
+.btn-regular{
+    border-radius: 20px;
+}
+
+.btn-regular:hover{
+    background-color: #c29958;
+    border-radius: 20px;
+}

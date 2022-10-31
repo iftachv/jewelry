@@ -1,0 +1,49 @@
+.service__card {
+  border-radius: 5px;
+  background-color: #f1eced;
+  width: 400px;
+  height: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+  align-items: center;
+}
+.service__info {
+  position: absolute;
+  width: fit-content;
+  padding: 10px;
+  gap: 10px;
+  display: grid;
+  top: 50px;
+}
+
+.service {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  font-family: "Titillium Web", sans-serif;
+  margin-top: 50px;
+}
+.service__card > img {
+  /* object-fit: contain; */
+  width: 200px;
+  position: relative;
+  /* Images default to being inline, inline items cannot have a width, so change to block: */
+  display: block;
+  bottom: -30px;
+  right: 0px;
+  left: 200px;
+  /* The following may be needed if there's still a wierd looking 2-3px gap at the bottom of the image in some browsers: */
+}
+.btn-service {
+  /* border: none; */
+  background: #2b3144;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 3px;
+  z-index: 100;
+}
+/* .g-4{
+    display: flex;
+    justify-content: space-between;
+} */

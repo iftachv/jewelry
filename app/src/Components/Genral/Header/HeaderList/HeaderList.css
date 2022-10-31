@@ -1,0 +1,13 @@
+li{
+    list-style: none;
+    font-size: 1vw;
+}
+li:hover{
+    background-color: darkgray;
+}
+.header__list{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    width: 500px;
+}

@@ -1,0 +1,30 @@
+.mb3{
+    /* padding-top: 20px; */
+    display: flex;
+    /* justify-content: space-between  ; */
+    width: 100%;
+}
+.text{
+    color: #c29958;
+    background-color: #fff;
+    width: 40%;
+    height: 30px;
+    font-size: 20px;
+    
+}
+
+.p-5{
+    color: black;
+    background-color: #c29958; 
+    height: 170px;
+    margin-top: 20px;
+}
+.submit{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px 60px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    cursor: pointer;
+}

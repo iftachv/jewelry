@@ -1,0 +1,74 @@
+.deal-card,
+.fashion-card {
+  width: 100%;
+  height: 300px;
+  padding: 30px;
+  border-radius: 50px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.deal-card {
+  /* background: url('../../../images/sw1.png'); */
+  margin-top: 20px;
+  background-repeat: no-repeat;
+  background-color: whitesmoke;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.fashion-card {
+  /* background: url('../../../images/sw2.png'); */
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  border: 10px;
+  margin-left: 50px;
+  background-color: whitesmoke;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.my-5 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  height: 500px;
+}
+
+/* .my-5 >div >img{
+    object-fit: contain;
+
+} */
+
+.img1 {
+  width: 110%;
+}
+.img2 {
+  width: 102%;
+}
+
+.btnroundedpy-2text-white {
+  background-color: #e04faa;
+  width: 150px;
+  height: 50px;
+  margin-top: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.btnroundedpy-2bg-lighttext-dark {
+  background-color: rgb(231, 182, 46);
+  width: 150px;
+  height: 50px;
+  margin-top: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.btnroundedpy-2bg-lighttext-dark:hover {
+  background-color: #e04faa;
+}
+.btnroundedpy-2text-white:hover {
+  background-color: rgb(231, 182, 46);
+}

@@ -1,0 +1,35 @@
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+  background-color: rgb(27, 27, 27);
+  color: #dcdde1;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  height: 250px;
+}
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin: 10px 0;
+}
+.footer-icon {
+  padding: 0px;
+  list-style: none;
+  color: #fff;
+  font-size: 2em;
+  display: flex;
+}
+.footer-icon li {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1px;
+}

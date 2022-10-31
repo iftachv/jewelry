@@ -1,0 +1,39 @@
+.card {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  border: 1px solid lightcoral;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: whitesmoke;
+}
+.card > img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 50px !important;
+}
+
+.cart__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.buy__now {
+  width: 100px;
+  margin: 10px 0px 20px 50px;
+  background-color: #c29958;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-radius: 5px;
+  transition: transform 150ms ease-in-out;
+}
+.buy__now:hover {
+  cursor: pointer;
+}
+.buy__now:active {
+  transform: scale(0.75);
+}

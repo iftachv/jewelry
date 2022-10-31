@@ -1,0 +1,19 @@
+
+.mt-5gy-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.mt-5gy-2 >div> img{
+    object-fit: contain;
+    width: 600px;
+}
+
+
+.two_images{
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+
+}
